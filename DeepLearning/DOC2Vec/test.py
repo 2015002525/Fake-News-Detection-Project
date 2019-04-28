@@ -36,8 +36,8 @@ def Test():
 y_test,predictions = Test()
 print(accuracy_score(y_test, predictions))
 print(f1_score(y_test, predictions, average='weight'))
-print(precision_score(y_test, predictions, average='weighted'))
-print(recall_score(y_test, predictions, average='weighted'))
+print(precision_score(y_test, predictions, average='weight'))
+print(recall_score(y_test, predictions, average='weight'))
 
 
 
